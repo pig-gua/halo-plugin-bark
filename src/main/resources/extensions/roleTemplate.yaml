@@ -3,13 +3,13 @@ kind: Role
 metadata:
   name: bark-role-manage-bark
   labels:
-    halo.run/role-template: "true"
+    abaaba.cloud/role-template: "true"
   annotations:
-    rbac.authorization.halo.run/module: "Bark Management"
-    rbac.authorization.halo.run/display-name: "Manage Bark"
-    rbac.authorization.halo.run/ui-permissions: |
+    rbac.authorization.abaaba.cloud/module: "Bark Management"
+    rbac.authorization.abaaba.cloud/display-name: "Manage Bark"
+    rbac.authorization.abaaba.cloud/ui-permissions: |
       ["plugin:bark:bark:manage"]
 rules:
-  - apiGroups: ["console.api.bark.halo.run"]
+  - apiGroups: ["console.api.bark.abaaba.cloud"]
     resources: ["bark/test"]
     verbs: ["create"]

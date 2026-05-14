@@ -8,7 +8,7 @@ spec:
       label: Bark 设置
       formSchema:
         - $formkit: verificationForm
-          action: /apis/console.api.bark.halo.run/v1alpha1/bark/test
+          action: /apis/console.api.bark.abaaba.cloud/v1alpha1/bark/test
           label: 测试推送
           children:
             - $formkit: url

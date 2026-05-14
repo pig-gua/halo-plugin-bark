@@ -43,12 +43,12 @@ public class CommentReconciler implements Reconciler<Reconciler.Request> {
 
         // 2、检查是否已通知
         Map<String, String> annotations = MetadataUtil.nullSafeAnnotations(comment);
-        if (annotations.containsKey("bark.halo.run/notified")) {
+        if (annotations.containsKey("bark.abaaba.cloud/notified")) {
             return Result.doNotRetry();
         }
 
         // 3、标记为已处理
-        MetadataUtil.nullSafeAnnotations(comment).put("bark.halo.run/notified", "true");
+        MetadataUtil.nullSafeAnnotations(comment).put("bark.abaaba.cloud/notified", "true");
         client.update(comment);
 
         // 4、Bark 异步推送

@@ -1,6 +1,6 @@
-# Refer https://docs.halo.run/developer-guide/plugin/basics/manifest
+# Refer https://docs.abaaba.cloud/developer-guide/plugin/basics/manifest
 
-apiVersion: plugin.halo.run/v1alpha1
+apiVersion: plugin.abaaba.cloud/v1alpha1
 kind: Plugin
 metadata:
   # The name defines how the plugin is invoked, A unique name

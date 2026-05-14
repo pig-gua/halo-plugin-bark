@@ -36,10 +36,10 @@ public class RegisterReconciler implements Reconciler<Reconciler.Request> {
         if (ExtensionUtil.isDeleted(user)) return Result.doNotRetry();
         // 2. 跳过已通知
         Map<String, String> annotations = MetadataUtil.nullSafeAnnotations(user);
-        if (annotations.containsKey("bark.halo.run/register-notified"))
+        if (annotations.containsKey("bark.abaaba.cloud/register-notified"))
             return Result.doNotRetry();
         // 3. 标记已处理
-        annotations.put("bark.halo.run/register-notified", "true");
+        annotations.put("bark.abaaba.cloud/register-notified", "true");
         client.update(user);
         // 4. 异步推送
         barkService.sendNewRegisterNotification(user);
