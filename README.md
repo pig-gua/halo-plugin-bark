@@ -1,3 +1,24 @@
+## 🎉 介绍
+
+一个 Halo 博客系统插件，用于将博客评论和用户注册事件推送到 iOS 设备。
+
+### 页面配置
+
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/pig-gua/halo-plugin-bark/refs/heads/master/src/main/resources/plugin-bark-settings.png" alt="页面配置"/></td>
+  </tr>
+</table>
+
+### 效果展示
+
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/pig-gua/halo-plugin-bark/refs/heads/master/src/main/resources/notice_1.jpg" alt="效果展示1" width="400"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/pig-gua/halo-plugin-bark/refs/heads/master/src/main/resources/notice_2.jpg" alt="效果展示2" width="400"/></td>
+  </tr>
+</table>
+
 ## 🏗️ 技术架构
 
 ### 后端组件
